@@ -8,7 +8,18 @@ import { Component } from '@angular/core';
 export class ListarPensamentoComponent {
 
 
-  listaPensamentos = [];
+  listaPensamentos = [
+    {
+      conteudo: 'Passo informações para o componente filho',
+      autoria: 'Componente Pai',
+      modelo: 'modelo3'
+    },
+    {
+      conteudo: 'Minha propriedade é decorada com @Input()',
+      autoria: 'Componente filho',
+      modelo: 'modelo2'
+    },
+  ];
 
   constructor(){
 
